@@ -1,0 +1,82 @@
+/* Style commun  a tous le site */
+
+header {
+    background-color: #A5A6F6;
+    border-top-left-radius:2em;
+    border-top-right-radius: 2em;
+}
+h1{
+    padding-left:13em;
+}
+nav {
+  border-bottom: 1px solid black;
+}
+
+.crumbs ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.crumb {
+  display: inline-block;
+}
+
+.crumb a::after {
+  display: inline-block;
+  color: black;
+  content: ">";
+  font-size: 80%;
+  font-weight: bold;
+  padding: 0 3px;
+}
+
+.bouton{
+    background-color: #A5A6F6;
+    border-radius:2em;
+
+}
+.bouton_de_navigation{
+    background-color: #A5A6F6;
+    border-radius:2em;
+
+}
+.bouton_contact{
+    padding-left: 12em;
+}
+footer {
+    background-color: #A5A6F6;
+    border-bottom-left-radius:2em;
+    border-bottom-right-radius: 2em;
+}
+body {
+    background-image: url("../media/fondpc.png");
+    background-size: auto ;
+    
+}
+   
+article{
+    background-color: #A5A6F6;
+
+}
+section{
+    align-items: center;
+}
+#boite{
+    display:flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    
+}
+#entete{
+    display: flex;
+    justify-content: space-between;
+
+}
+header {
+    background-color: #A5A6F6;}
+footer {
+    background-color: #A5A6F6;
+}
+body {
+    
+}

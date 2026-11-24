@@ -1,0 +1,123 @@
+#header{
+    font-size: 40px;
+    color: #B9FFFF;
+    font-family:cursive;
+}
+.search_bar{
+    width: 20em;
+    height: 3em;
+    box-sizing: border-box;
+    margin: 0em;
+   
+
+
+}
+.body{
+    background-image: url("/media/Designer.png");
+    background-size:cover; 
+}
+.recommandation{
+    margin-bottom: 2em;
+    font-size: 30px;
+    font-family: cursive;
+    color: #B9FFFF;
+}
+.activity1{
+    margin-bottom: 2em;
+    border-radius: 30px;
+    height: 5em;
+    width: 20em;
+    border: solid;
+    color: #B9FFFF;
+    cursor: pointer;
+    
+}
+
+
+.activity1::hover{
+    transform: scale(1.2);
+    
+}
+
+
+.search_conteneur{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 0.5em;
+ margin-bottom: 0.5em;
+ color: darkorchid;
+ border: solid;
+ width: 10em;
+ height: 3em;
+ margin:auto;
+ border-radius: 30px;
+ 
+}
+.search_icon{
+    width: 2.5em;
+    height: 2.5em;
+    margin: 0;
+    display: block;
+    gap: 1em;
+}
+.USA_header{
+    height: 5em;
+    border-radius: 40px;
+    border-color:darkorchid;
+    width: 80em;
+    display: flex;
+    margin: auto;
+
+
+}
+.Etat{
+    height: 6em;
+    width: 40em;
+    border-radius: 30px;
+    background-color: #B9FFFF;
+}
+.subclass1{
+    display:flex;
+}
+.search_icon1{
+    height: 5em;
+    width: 5em;
+    border-radius: 30px;
+    
+    
+}
+.all_activity{
+    margin:auto;
+    width: 40em;
+    
+}
+.footer{
+    color: darkorchid;
+    font-size: 20px;
+    text-align: center;
+}
+.button_search{
+    display: inline-block;
+    height: 6em;
+    width: 6em;
+    border-radius: 30px;
+
+}
+.comeback{
+    border-radius: 30px;
+    background-color: crimson;
+    font-family: cursive;
+}
+.activities{
+    height: 5em;
+    width: 40em;
+    margin-top: 2em;
+    border-radius: 30px;
+    background-color: #80fdfd;
+}
+.statue_liberty{
+    background-image: url(/projet_web-main/media/statue.jpg);
+    height: 20em;
+    width: 40em;
+}

@@ -1,0 +1,43 @@
+body {
+    background-image: url("/media/fondpc.png");
+    background-size: auto;
+    background-position: center;
+}
+
+.lion {
+    font-family: Arial, sans-serif;
+    color: #ffffff; 
+    font-weight: bold; 
+    -webkit-text-stroke: 3px #000000; 
+    paint-order: stroke fill;
+    text-align: center;
+}
+
+.lion h1, .lion h2 {
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+.lion h1 {
+    font-size: 3rem;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.lion figure {
+    background-color: rgba(0, 0, 0, 0.65);
+    backdrop-filter: blur(5px);
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.lion figure img {
+    width: 100%; 
+    height: 400px;
+    object-fit: cover; 
+    border-radius: 10px;
+}

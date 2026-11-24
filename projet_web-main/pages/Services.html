@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Services - America Travels</title>
+    <link rel="stylesheet" href="/css/services.css">
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/light.css">
+</head>
+<body>
+
+     <header>
+                        <nav class= "crumb"> 
+                            <ol>
+                            <li class="crumb"><a href="#">accueil</a></li>
+                            </ol>
+                        </nav>
+                    <div id="entete">
+                    <img class ="logo" src="https://github.com/D1emon/projet_web/blob/main/site%20web/media/logo2.png?raw=true" alt="logo"></img>                    
+                    <h1> <strong>America Travels</strong></h1>
+                    <button class="bouton" type="button"  commandfor="mydialog" command="show-modal">nous contatcter</button>
+                    <button class="bouton" type="button">Nos agences</button>
+                     <dialog id="mydialog"> 
+                            <div class="wrapper">
+                                <form >
+                                    <p>
+                                     <label for="prenom">Prénom</label>
+                                     <input id="prenom" type="text" name="prenom" value=" ">
+                                     <label for="nom">Nom</label>
+                                     <input id="nom" type="text" name="nom" value=" ">
+                                     <br>
+                                     <textarea name="impression" rows="2" cols="50">dites...</textarea><br>
+                                     <input type="submit" value="envoyez">
+                                    </p>
+                                </form>
+                        <button commandfor="mydialog" command="request-close">fermez</button>
+                        <script> src="/js/index.js"</script>
+                    
+                </div>
+
+
+                </header>  
+
+   
+    <main>
+        <h2 class="titre-page">Nos services</h2>
+
+        <section class="liste-services">
+
+            <article class="service">
+                <h3>Billets d'avion</h3>
+                <p> nous vous aidons a reserver vos billet d'avoins avec des pormotion imbattable</p>
+            </article>
+
+            <article class="service">
+                <h3>Hébergement</h3>
+                <p>Hôtels, motels et locations : nous réservons les logements adaptés à votre budget et à votre itinéraire.</p>
+            </article>
+
+            <article class="service">
+                <h3>Location de voiture</h3>
+                <p>Un road trip à travers le pays ? Nous réservons votre véhicule et vous expliquons les règles de conduite locales.</p>
+            </article>
+
+            <article class="service">
+                <h3>Voyage sur mesure</h3>
+                <p>Dites-nous vos envies : nous construisons un programme personnalisé, jour par jour.</p>
+            </article>
+
+            <article class="service">
+                <h3>Aide administrative</h3>
+                <p>Formulaire ESTA, assurance voyage, conseils sur les papiers à prévoir avant le départ.</p>
+            </article>
+
+        </section>
+    </main>
+
+    <footer>
+        <article>
+            <p>413 Av. Gaston Berger, 13100 Aix-en-Provence</p>
+        </article>
+    </footer>
+
+</body>
+</html>

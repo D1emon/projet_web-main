@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="fr">    
+    <head>        
+        <title>America travels</title>        
+        <meta charset="utf-8">    
+        <link rel="stylesheet" href="../CSS/style.css">
+    </head>    
+         <body> 
+            <nav> 
+                <header>
+                    <nav class= "crumb"> 
+                            <ol>
+                            <li class="crumb"><a href="../index.html">accueil</a></li>
+                            <li class="crumb">recommandation</li>
+                            </ol>
+                        </nav>
+                    <div id="entete">
+                    <img class ="logo" src="../media/logo2.png" alt="logo"></img>                    
+                    <h1> <strong>america travels</strong></h1>
+                    <button class="bouton" type="button"  commandfor="mydialog" command="show-modal">nous contatcter</button>
+                    <button class="bouton" type="button">Nos agences</button>
+                     <dialog id="mydialog"> 
+                            <div class="wrapper">
+                                <form >
+                                    <p>
+                                     <label for="prenom">Prénom</label>
+                                     <input id="prenom" type="text" name="prenom" value=" ">
+                                     <label for="nom">Nom</label>
+                                     <input id="nom" type="text" name="nom" value=" ">
+                                     <br>
+                                     <textarea name="impression" rows="2" cols="50">Donnez vos impressions sur le site...</textarea><br>
+                                     <input type="submit" value="envoyez">
+                                    </p>
+                                </form>
+                        <button commandfor="mydialog" command="request-close">fermez</button>
+                        <script> // lignes venat de la documentation mdn mais adaptées pour notre site
+                            const dialog = document.querySelector("dialog");
+                            const radio = document.querySelector("form").elements["close"];
+                            const warning = document.querySelector(".warning");
+
+                            dialog.addEventListener("cancel", (e) => {
+                            if (!e.cancelable) return;
+                            if (radio.value === "no") {
+                                 warning.hidden = false;
+                            e.preventDefault();
+                            } 
+                            else {
+                            warning.hidden = true;
+                                 }
+                                });
+                        </script>
+                    
+                </div>
+
+
+                </header>       
+                <section>
+                    <article>
+                        <header>
+                            <h2></h2>
+                        </header>
+                    </article>
+
+                </section>
+            <footer>
+                <article>
+                    <p>413 Av. Gaston Berger, 13100 Aix-en-Provence</p>
+                </article>
+            </footer>
+        </nav> 
+    </body>
+    </html>

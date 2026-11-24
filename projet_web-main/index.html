@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="fr">    
+    <head>        
+        <title>America travels</title>        
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="/css/light.css">
+        <link rel="stylesheet" href="/css/global.css">
+        <link rel="stylesheet" href="/css/index.css">
+    </head>    
+         <body> 
+        
+                <header>
+                        <nav class= "crumb"> 
+                            <ol>
+                            <li class="crumb"><a href="#">accueil</a></li>
+                            </ol>
+                        </nav>
+                    <div id="entete">
+                    <img class ="logo" src="./media/logo2.png" alt="logo"></img>                    
+                    <h1> <strong>America Travels</strong></h1>
+                    <button class="bouton" type="button"  commandfor="mydialog" command="show-modal">nous contatcter</button>
+                    <button class="bouton" type="button">Nos agences</button>
+                     <dialog id="mydialog"> 
+                            <div class="wrapper">
+                                <form >
+                                    <p>
+                                     <label for="prenom">Prénom</label>
+                                     <input id="prenom" type="text" name="prenom" value=" ">
+                                     <label for="nom">Nom</label>
+                                     <input id="nom" type="text" name="nom" value=" ">
+                                     <br>
+                                     <textarea name="impression" rows="2" cols="50">Donnez vos impressions sur le site...</textarea><br>
+                                     <input type="submit" value="envoyez">
+                                    </p>
+                                </form>
+                        <button commandfor="mydialog" command="request-close">fermez</button>
+                </div>
+
+
+                </header>       
+                <section>
+                   <div id="boite">
+                         <a class="bouton" href="/pages/recomandation.html">recommandations</a>  
+                        <a class="bouton" type="button">destinations</a>
+                        <a class="bouton" type="button">services</a>
+                        <a class="bouton" type="button">activitées</a>
+                    </div>
+                    <article>
+                        <header>
+                            <h2>à la Une</h2>
+                        </header>
+                        <a class="bouton" type="button"> precedent </a>
+                        <a class="bouton" type="button">suivant</a>
+                    </article>
+
+                </section>
+            <footer>
+                <article>
+                    <p>413 Av. Gaston Berger, 13100 Aix-en-Provence</p>
+                </article>
+            </footer>
+        </nav>
+        <script src="/js/index.js" defer></script>
+    </body>
+    </html>
